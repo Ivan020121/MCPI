@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="MCPI - Free compound protein interaction prediction.    ">
+  <meta name="author" content="Ivan">
+  <title>MCPI - Free compound protein interaction prediction</title>
+  <link rel=" icon" href="./static/images/brand/favicon.png">
+  <link rel="shortcut icon" href="./static/images/brand/favicon.png">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Nunito:400,600,700,800|Roboto:400,500,700" rel="stylesheet">
+  <!-- Theme CSS -->
+  <link type="text/css" href="{{url_for('static',filename = 'css/theme.css')}}" rel="stylesheet">
+  <!-- Demo CSS - No need to use these in your project -->
+  <link type="text/css" href="{{url_for('static',filename = 'css/demo.css')}}" rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-transparent navbar-light bg-white py-4">
+    <div class="container">
+      <a class="navbar-brand" href="../"><strong>MCPI</strong> - Free compound protein interaction prediction</a>
+      <button class="navbar-toggler" type="button" data-action="offcanvas-open" data-target="#navbar_main"
+        aria-controls="navbar_main" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse offcanvas-collapse" id="navbar_main">
+        <ul class="navbar-nav ml-auto align-items-lg-center">
+          <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Menu</h6>
+          <li class="nav-item ">
+            <a class="nav-link" href="./index">Homepage</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./about">About us</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link" href="./contact">Contact</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbar_main_dropdown_1" role="button"
+              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Login</a>
+            <div class="dropdown-menu" aria-labelledby="navbar_1_dropdown_1">
+              <a class="dropdown-item" href="./sign-up">Sign up</a>
+              <a class="dropdown-item" href="./sign-in">Sign in</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="btn btn-sm bg-white d-none d-lg-inline-flex" href="./product">Product</a>
+            <!-- <a href="https://github.com/webpixels/boomerang-ui-kit/archive/master.zip" target="_blank"
+                class="nav-link d-lg-none">Products</a>
+            <a href="https://github.com/webpixels/boomerang-ui-kit/archive/master.zip" target="_blank"
+                class="btn btn-sm bg-white d-none d-lg-inline-flex">Products</a> -->
+          </li>
+          <div class="dropdown-divider d-lg-none my-4"></div>
+          <h6 class="dropdown-header font-weight-600 d-lg-none px-0">Social Media</h6>
+          <!-- <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="https://instagram.com/webpixelsofficial/" target="_blank"><i
+                class="fab fa-instagram"></i><span class="ml-2 d-lg-none">Instagram</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="https://web.facebook.com/webpixels" target="_blank"><i
+                class="fab fa-facebook"></i><span class="ml-2 d-lg-none">Facebook</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="https://dribbble.com/webpixels" target="_blank"><i
+                class="fab fa-dribbble"></i><span class="ml-2 d-lg-none">Dribbble</span></a>
+          </li> -->
+          <li class="nav-item">
+            <a class="nav-link nav-link-icon" href="https://github.com/webpixels" target="_blank"><i
+                class="fab fa-github"></i><span class="ml-2 d-lg-none">Github</span></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <main class="main">
+    <section class="slice slice-xl">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+            <div class="text-center pt-lg-md">
+              <h2 class="heading h1 mb-4">
+                Wanna work together?
+              </h2>
+              <p class="lead lh-180">
+                We are a professional digital agency providing premium themes, UI/UX design and web apps that you will
+                simply love.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slice bg-tertiary bg-cover bg-size--cover"
+      style="background-image: url('../static/images/backgrounds/img-1.jpg')">
+      <span class="mask bg-tertiary alpha-9"></span>
+      <div class="container">
+        <div class="row cols-xs-space cols-sm-space cols-md-space">
+          <div class="col-lg-6">
+            <div class="card bg-dark alpha-container text-white border-0 overflow-hidden">
+              <a href="https://map.baidu.com/search/%E4%B8%9C%E5%8C%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6(%E5%87%80%E6%9C%88%E6%A0%A1%E5%8C%BA)/@13962848.995586472,5409742.96167735,17.16z?querytype=s&da_src=shareurl&wd=%E4%B8%9C%E5%8C%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6(%E5%87%80%E6%9C%88%E6%A0%A1%E5%8C%BA)&c=53&src=0&wd2=%E9%95%BF%E6%98%A5%E5%B8%82%E5%8D%97%E5%85%B3%E5%8C%BA&pn=0&sug=1&l=13&b=(13941322,5401205;13990474,5423733)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&sug_forward=58b93729d092a2ec1ef74de4&device_ratio=2"
+                target="_blank">
+                <div class="card-img-bg" style="background-image: url('../static/images/backgrounds/1.png');"></div>
+                <span class="mask bg-dark alpha-5 alpha-4--hover"></span>
+                <div class="card-body px-5 py-5">
+                  <div style="min-height: 300px;">
+                    <h3 class="heading h1 text-white mb-3">NENU Institute of Computational Biology</h3>
+                    <p class="mt-4 mb-1 h5 text-white lh-180">
+                      E: wangh101@nenu.edu.cn
+                    </p>
+                    <p class="mb-1 h5 text-white lh-180">
+                      T: 0755.222.333
+                    </p>
+                  </div>
+                  <span href="#" class="text-white text-uppercase font-weight-500">
+                    See on map
+                    <i class="fas fa-arrow-right ml-2"></i>
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="card bg-dark alpha-container text-white border-0 overflow-hidden">
+              <a href="https://map.baidu.com/search/%E4%B8%9C%E5%8C%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6(%E5%87%80%E6%9C%88%E6%A0%A1%E5%8C%BA)/@13962848.995586472,5409742.96167735,17.16z?querytype=s&da_src=shareurl&wd=%E4%B8%9C%E5%8C%97%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6(%E5%87%80%E6%9C%88%E6%A0%A1%E5%8C%BA)&c=53&src=0&wd2=%E9%95%BF%E6%98%A5%E5%B8%82%E5%8D%97%E5%85%B3%E5%8C%BA&pn=0&sug=1&l=13&b=(13941322,5401205;13990474,5423733)&from=webmap&biz_forward=%7B%22scaler%22:2,%22styles%22:%22pl%22%7D&sug_forward=58b93729d092a2ec1ef74de4&device_ratio=2"
+                target="_blank">
+                <div class="card-img-bg" style="background-image: url('../static/images/backgrounds/3.png');"></div>
+                <span class="mask bg-dark alpha-5 alpha-4--hover"></span>
+                <div class="card-body px-5 py-5">
+                  <div style="min-height: 300px;">
+                    <h3 class="heading h1 text-white mb-3">NENU Institute of Computational Biology</h3>
+                    <p class="mt-4 mb-1 h5 text-white lh-180">
+                      E: wangh101@nenu.edu.cn
+                    </p>
+                    <p class="mb-1 h5 text-white lh-180">
+                      T: 0755.222.333
+                    </p>
+                  </div>
+                  <span href="#" class="text-white text-uppercase font-weight-500">
+                    See on map
+                    <i class="fas fa-arrow-right ml-2"></i>
+                  </span>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="slice slice-lg">
+      <div class="container">
+        <div class="row align-items-center cols-xs-space cols-sm-space cols-md-space">
+          <div class="col-lg-6">
+            <h3 class="heading h3 mb-4">Send us a message</h3>
+            <form action="" method="post">
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group">
+                    <input class="form-control" placeholder="Name" name="name" type="text">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group">
+                    <input class="form-control" placeholder="Email address" name="email" type="email">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="form-group">
+                    <textarea class="form-control" rows="5" placeholder="Your message" name="message"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="mt-4">
+                <button type="submit" class="btn btn-primary px-4">
+                  Send message
+                </button>
+              </div>
+            </form>
+          </div>
+          <div class="col-lg-5 ml-lg-auto">
+            <h3 class="heading heading-3 strong-300">
+              No. 2555, Jingyue Street, Nanguan District, Changchun City, Jilin Province, China
+            </h3>
+            <p class="lead mt-4 mb-4">
+              E: <a href="#">wangh101@nenu.edu.cn</a>
+              <br>
+              T: 0755.222.333
+            </p>
+            <p class="">
+              Probably the most complete UI kit out there. Multiple functionalities and controls added, extended color
+              palette and beautiful typography, designed as its own extended version of Bootstrap at the highest level
+              of quality.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="pt-5 pb-3 footer  footer-dark bg-tertiary">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-4">
+          <div class="pr-lg-5">
+            <h1 class="heading h6 text-uppercase font-weight-700 mb-3"><strong>NENU Institute of Computational
+                Biology</strong></h1>
+            <p>The NENU-ICB is a research group focusing on human complex diseases research and relevant drug target
+              discovering starting from Protein Interactome Networks.</p>
+          </div>
+        </div>
+        <div class="col-6 col-md">
+          <h5 class="heading h6 text-uppercase font-weight-700 mb-3">Achievements</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="http://bioinformatics.nenu.edu.cn/html/1/62/83/index.html">Papers</a></li>
+            <li><a class="text-muted" href="http://bioinformatics.nenu.edu.cn/html/1/62/84/index.html">Projects</a></li>
+            <li><a class="text-muted" href="http://bioinformatics.nenu.edu.cn/html/1/19/142/index.html"> Research
+                Activities</a></li>
+            <!-- <li><a class="text-muted" href="#">Stuff for developers</a></li>
+            <li><a class="text-muted" href="#">Another one</a></li>
+            <li><a class="text-muted" href="#">Last time</a></li> -->
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5 class="heading h6 text-uppercase font-weight-700 mb-3">Cooperative unit</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="http://digbio.missouri.edu">Digital Biology Laboratory</a></li>
+            <li><a class="text-muted" href="https://bmi.sjtu.edu.cn/">Biomedical Informatics lab</a></li>
+            <li><a class="text-muted" href="https://www.smhc.org.cn">Shanghai Mental Health Center</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5 class="heading h6 text-uppercase font-weight-700 mb-3">Contact us</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="http://bioinformatics.nenu.edu.cn/html/1/93/94/index.html">Mentors</a></li>
+            <li><a class="text-muted" href="http://bioinformatics.nenu.edu.cn/html/1/93/95/index.html">Teachers</a></li>
+            <li><a class="text-muted" href="http://bioinformatics.nenu.edu.cn/html/1/93/96/index.html">Students</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <div class="d-flex align-items-center">
+        <span class="">
+          &copy; 2022 <a href="http://bioinformatics.nenu.edu.cn/html/1/index.html" class="footer-link"
+            target="_blank">NENU-ICB</a>. All rights
+          reserved.
+        </span>
+        <ul class="nav ml-lg-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="https://instagram.com/webpixelsofficial" target="_blank"><i
+                class="fab fa-instagram"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://facebook.com/webpixels" target="_blank"><i
+                class="fab fa-facebook"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/webpixels" target="_blank"><i class="fab fa-github"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://dribbble.com/webpixels" target="_blank"><i
+                class="fab fa-dribbble"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!-- Core -->
+  <script src="{{url_for('static',filename = 'vendor/jquery/jquery.min.js')}}"></script>
+  <script src="{{url_for('static',filename = 'vendor/popper/popper.min.js')}}"></script>
+  <script src="{{url_for('static',filename = 'js/bootstrap/bootstrap.min.js')}}"></script>
+  <!-- FontAwesome 5 -->
+  <script src="{{url_for('static',filename = 'vendor/fontawesome/js/fontawesome-all.min.js')}}" defer></script>
+  <!-- Page plugins -->
+  <script src="{{url_for('static',filename = 'vendor/bootstrap-select/js/bootstrap-select.min.js')}}"></script>
+  <script src="{{url_for('static',filename = 'vendor/bootstrap-tagsinput/bootstrap-tagsinput.min.js')}}"></script>
+  <script src="{{url_for('static',filename = 'vendor/input-mask/input-mask.min.js')}}"></script>
+  <script src="{{url_for('static',filename = 'vendor/ouislider/js/nouislider.min.js')}}"></script>
+  <script src="{{url_for('static',filename = 'vendor/textarea-autosize/textarea-autosize.min.js')}}"></script>
+  <!-- Theme JS -->
+  <script src="{{url_for('static',filename = 'js/theme.js')}}"></script>
+</body>
+
+</html>
